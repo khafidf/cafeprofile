@@ -1,0 +1,85 @@
+.profile-container {
+    display: flex;
+    background-image: url(../../assets/coffee.jpg);
+    width: auto;
+    height: 600px;
+    text-align: center;
+    align-items: center;
+    cursor: default;
+}
+
+.profile-header {
+    margin: 0;
+    padding: 30px;
+    font-size: 54px;
+}
+
+.profile-logo {
+    font-size: 72px;
+    margin: 0;
+    padding: 30px;
+    text-shadow: 5px 5px 10px #2D1E18;
+}
+
+.profile-desc {
+    margin: 0;
+    font-size: 16px;
+    padding: 30px 60px 30px 60px;
+}
+
+@media only screen and (max-width: 1320px) {
+    .profile-container {
+        padding: 0 50px;
+    }
+
+    .profile-header {
+        font-size: 46px;
+    }
+    
+    .profile-logo {
+        font-size: 64px;
+        text-shadow: 5px 5px 10px #2D1E18;
+    }
+    
+    .profile-desc {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .profile-container {
+        padding: 0 30px;
+    }
+
+    .profile-header {
+        font-size: 42px;
+    }
+    
+    .profile-logo {
+        font-size: 60px;
+        text-shadow: 5px 5px 10px #2D1E18;
+    }
+    
+    .profile-desc {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .profile-container {
+        padding: 0 10px;
+    }
+
+    .profile-header {
+        font-size: 38px;
+    }
+    
+    .profile-logo {
+        font-size: 56px;
+        text-shadow: 5px 5px 10px #2D1E18;
+    }
+    
+    .profile-desc {
+        font-size: 12px;
+    }
+}

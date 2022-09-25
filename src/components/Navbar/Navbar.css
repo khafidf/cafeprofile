@@ -12,7 +12,7 @@
 
 .nav-logo h1:hover {
     transform: scale(1.1);
-    transition: 0.5s;
+    transition: .5s;
 }
 
 span {
@@ -79,7 +79,7 @@ span {
         right: 0;
         width: 100vw;
         background-color: #2D1E18;
-        transition: 0.5s;
+        transition: .5s;
         overflow: hidden;
     }
 
@@ -92,7 +92,7 @@ span {
         width: fit-content;
         margin: 40px auto 0 auto;
         text-align: center;
-        transition: 0.5s;
+        transition: .5s;
         opacity: 0;
     }
     

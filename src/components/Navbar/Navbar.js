@@ -23,10 +23,10 @@ const Navbar = () => {
         </div>
         <div className='nav-list'>
             <ul>
-                <li><a href=''>Profil</a></li>
-                <li><a href=''>Produk</a></li>
-                <li><a href=''>Tempat dan Suasana</a></li>
-                <li><a href=''>Peta</a></li>
+                <li><a href='#profile'>Profil</a></li>
+                <li><a href='#product'>Produk</a></li>
+                <li><a href='#place'>Tempat dan Suasana</a></li>
+                <li><a href='#map'>Peta</a></li>
             </ul>
         </div>
     </div>

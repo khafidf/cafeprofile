@@ -7,7 +7,7 @@
 
 .nav-logo {
     cursor: pointer;
-    
+
 }
 
 .nav-logo h1:hover {
@@ -15,8 +15,12 @@
     transition: .5s;
 }
 
+h1 {
+    color: var(--main-color);
+}
+
 span {
-    color: var(--sc-color);
+    color: #7e4b3c;
 }
 
 .hamburger {
@@ -90,12 +94,13 @@ span {
     .nav-list ul {
         display: block;
         width: fit-content;
+        padding-left: 0;
         margin: 40px auto 0 auto;
         text-align: center;
         transition: .5s;
         opacity: 0;
     }
-    
+
     .nav-list.active ul {
         opacity: 1;
     }

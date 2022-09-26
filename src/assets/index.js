@@ -1,0 +1,5 @@
+export { default as americano } from './americano.jpeg'
+export { default as cappucino } from './cappucino.jpeg'
+export { default as espresso } from './espresso.jpeg'
+export { default as flatwhite } from './flatwhite.jpeg'
+export { default as latte } from './latte.jpeg'

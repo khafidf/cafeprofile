@@ -13,6 +13,12 @@
     margin: 100px;
 }
 
+.product-header {
+    text-align: center;
+    color: var(--sc-color);
+    font-size: 50px;
+}
+
 .bg-img {
     width: 350px;
     border-radius: 25px;

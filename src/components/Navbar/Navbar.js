@@ -16,7 +16,7 @@ const Navbar = () => {
   return (
     <div className='nav-container'>
         <div className='nav-logo'>
-            <h1>Coffe<span>Co</span></h1>
+            <h1 className='nav-header'>Coffe<span>Co</span></h1>
         </div>
         <div className='hamburger' onClick={() => activeDropdown()}>
           <IconContext.Provider value={{ className: 'line' }}>{icon ? <FaTimes /> : <FaBars />}</IconContext.Provider>

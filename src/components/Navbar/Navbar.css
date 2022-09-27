@@ -15,7 +15,7 @@
     transition: .5s;
 }
 
-h1 {
+.nav-header {
     color: var(--main-color);
 }
 

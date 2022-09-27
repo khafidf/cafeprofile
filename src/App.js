@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css';
-import { Navbar, Profile, Product } from './components'
+import { Navbar, Profile, Slider } from './components'
 
 function App() {
   return (
     <div>
         <Navbar />
         <Profile />
-        <Product />
+        <Slider />
     </div>
   );
 }

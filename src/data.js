@@ -1,4 +1,4 @@
-import { americano, cappucino, espresso, flatwhite, latte } from './assets'
+import { americano, cappucino, espresso, flatwhite, latte, view1, view2, view3 } from './assets'
 
 export const coffeDatas = [
     {
@@ -32,5 +32,17 @@ export const coffeDatas = [
         desc: `Caffe latte adalah salah satu minuman kopi yang memiliki banyak penggemar.
         Minuman ini merupakan campuran antara kopi espresso dengan susu.
         Caffe latte sangat cocok bagi kamu yang tidak terlalu suka dengan rasa kopi yang terlalu pahit.`
+    }
+];
+
+export const viewDatas = [
+    {
+        view: view1
+    },
+    {
+        view: view2
+    },
+    {
+        view: view3
     }
 ];

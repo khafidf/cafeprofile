@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { Navbar, Profile, Slider } from './components'
+import { Navbar, Profile, Slider, Place, Map, Footer } from './components'
 
 function App() {
   return (
@@ -8,6 +8,9 @@ function App() {
         <Navbar />
         <Profile />
         <Slider />
+        <Place />
+        <Map />
+        <Footer />
     </div>
   );
 }

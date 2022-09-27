@@ -22,7 +22,7 @@ const Navbar = () => {
           <IconContext.Provider value={{ className: 'line' }}>{icon ? <FaTimes /> : <FaBars />}</IconContext.Provider>
         </div>
         <div className='nav-list'>
-            <ul>
+            <ul onClick={() => activeDropdown()}>
                 <li><a href='#profile'>Profil</a></li>
                 <li><a href='#product'>Produk</a></li>
                 <li><a href='#place'>Tempat dan Suasana</a></li>

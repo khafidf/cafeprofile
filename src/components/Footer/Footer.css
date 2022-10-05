@@ -30,37 +30,37 @@
         padding: 0 50px;
     }
     
-    .profile-logo {
+    .footer-logo {
         font-size: 64px;
     }
 }
 
 @media only screen and (max-width: 1024px) {
-    .profile-container {
+    .footer-container {
         padding: 0 30px;
     }
     
-    .profile-logo {
+    .footer-logo {
         font-size: 60px;
     }
 }
 
 @media only screen and (max-width: 768px) {
-    .profile-container {
+    .footer-container {
         padding: 0 10px;
     }
     
-    .profile-logo {
+    .footer-logo {
         font-size: 56px;
     }
 }
 
 @media only screen and (max-width: 384px) {
-    .profile-container {
+    .footer-container {
         padding: 0 50px;
     }
     
-    .profile-logo {
+    .footer-logo {
         font-size: 54px;
     }
 }

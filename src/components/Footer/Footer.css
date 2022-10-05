@@ -31,7 +31,7 @@
     }
     
     .footer-logo {
-        font-size: 64px;
+        font-size: 60px;
     }
 }
 
@@ -41,17 +41,20 @@
     }
     
     .footer-logo {
-        font-size: 60px;
+        font-size: 56px;
     }
 }
 
 @media only screen and (max-width: 768px) {
     .footer-container {
+        display: flex;
+        flex-direction: column;
         padding: 0 10px;
     }
     
     .footer-logo {
-        font-size: 56px;
+        font-size: 52px;
+        padding: 30px 60px 0 60px;
     }
 }
 
@@ -61,6 +64,6 @@
     }
     
     .footer-logo {
-        font-size: 54px;
+        font-size: 48px;
     }
 }
